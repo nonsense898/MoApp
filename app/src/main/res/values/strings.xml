@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MoApp</string>
+    <string name="login_btn_text">Login</string>
+    <string name="password_btn_text">Password</string>
+    <string name="sign_in_btn_text">Sign in</string>
+</resources>

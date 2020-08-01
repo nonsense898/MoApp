@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/bg_login">
+
+
+    <EditText
+        android:id="@+id/loginET"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:maxLines="1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_shape"
+        android:hint="@string/login_btn_text"
+        android:padding="8dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/passET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginET"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:background="@drawable/et_shape"
+        android:hint="@string/password_btn_text"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passET"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/et_shape"
+        android:text="@string/sign_in_btn_text"
+        android:textColor="#FFF" />
+</RelativeLayout>
